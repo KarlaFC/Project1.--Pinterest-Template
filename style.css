@@ -1,0 +1,108 @@
+/* Navigation bar elements */
+.RoundLogo{
+    border-radius: 50%;
+    width: 25px;
+    margin-top: -3px;
+}
+
+.IconsNB{
+    border-radius: 50%;
+    margin-top: -10px;
+}
+
+.IconsP{
+    border-radius: 50%;
+    margin-top: -2px;
+}
+
+.IconsA{
+    border-radius: 50%;
+    margin-top: 3px;
+}
+
+.SearchBar{
+    border-radius: 10%;
+    margin-top: -12px;
+}
+
+.TopBar{
+    height: 60px;
+    background-color: white;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+
+.TopBar a{
+    float: left;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 14px 16px;
+}
+
+.TopBar a.Icons{
+    float: left;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 14px 3px;
+} 
+
+.TopBar a:hover{
+    background-color: #F2F3F4;
+    border-radius: 20px;
+    color: black;
+}
+
+.TopBar a.active {
+    background-color: black;
+    border-radius: 25px;
+    color: white;
+  }
+
+/* GRID */
+.photoGrid {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 8px;
+}
+
+.column {
+    flex: 25%;
+    max-width: 17%;
+    padding: 0 8px;
+}
+.column img {
+    margin-top: 10px;
+    vertical-align: middle;
+    border-radius: 25px;
+}
+.column img:hover{
+    opacity: .5;
+}
+.column caption{
+    font-size: 20px;
+    align-items: center;
+    font-family: fantasy;
+    font-weight: bold;
+}
+
+@media (max-width: 1000px) {
+    .column {
+      flex: 50%;
+      max-width: 40%;
+    }
+}
+@media (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 50%;
+    }
+}
+
+.grid{
+    margin-left: 100px;
+}
